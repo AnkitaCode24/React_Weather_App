@@ -1,0 +1,98 @@
+.app-warm{
+    background-image: url('../assets/sunny.png');
+    height:100vh;
+    background-size: cover;
+}
+.app{
+    background-image: url('../assets/cloudy.jpg');
+    height:100vh;
+    background-size: cover;
+}
+#heading{
+    padding:40px 0;
+    
+    text-align: center;
+}
+#heading h1{
+    font-weight: 600;
+    font-size:46px;
+}
+.top{
+    text-align: center;
+}
+#search-input{
+    background-color:rgba(255,255,255,0.75);
+    border-radius: 0px 0px 16px 16px;
+    transition:0.4s ease;
+    border:none;
+    outline:none;
+    font-size: 20px;
+    padding:10px 40px;
+    align-items: center; 
+}
+button{
+    border:none;
+    outline:none;
+    transition: 0.4s ease;
+    padding:12px 35px;
+    margin-left:20px;
+    border-radius:  10px;
+    background-color:rgba(255,255,255,0.75);
+    
+}
+button:hover{
+    transition: 0.4s ease;
+    background-color: skyblue;
+}
+
+#location h3{
+    padding:40px 0 0 30px;
+    font-size:42px;
+    color:cornsilk; 
+    font-weight: 500;
+    text-align: center;
+    text-shadow:3px 3px rgba(50, 50, 70, 0.50);
+    text-transform: capitalize;
+}
+.date h4{
+    padding:40px auto;
+    font-size:34px;
+    text-align: center;
+    color:cornsilk; 
+    font-style: italic;
+    text-transform: capitalize;
+}
+#temp{
+    height:170px;
+    width:300px;
+    position:relative;
+    margin:auto;
+    margin-top:20px;
+    padding:50px 0 0 50px ;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 3px 6px regba(0, 0, 0, 0.2);
+}
+#temp h4{
+    font-size:42px;
+    color:ivory;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 3px;
+    position:absolute;
+    
+    text-align: center;
+}
+
+#climate h5{
+    font-size:44px;
+    color:ivory;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding:30px 40px;
+    text-align: center;
+}
+
+
